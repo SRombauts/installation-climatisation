@@ -26,6 +26,19 @@ relativement frais pendant plusieurs jours **à condition** de pouvoir ouvrir to
 fenêtres la nuit (ventilation nocturne). La stratégie actuelle ne tient plus quand les
 nuits sont trop chaudes et sans vent.
 
+**Protections solaires DÉJÀ en place (atout majeur)** ✔ :
+- **Volets bois** sur **toutes les fenêtres ouest** + **volets roulants PVC** sur les
+  **2 fenêtres est** → **tous fermés en cas de chaleur estivale**. Les apports solaires
+  directs sont donc **déjà fortement bloqués** (mesure passive la plus efficace).
+- **Grande voile d'ombrage** au-dessus de la terrasse / porte-fenêtre du séjour (ouest),
+  **possiblement remplacée à terme par une pergola végétalisée**.
+- **Projet** : ajouter une **voile d'ombrage au-dessus de la fenêtre de la salle à manger**
+  (RDC), qui **ombrerait aussi l'unité extérieure** aux heures de soleil haut (cf. §5).
+
+→ **Conséquence dimensionnement** : le besoin de froid du séjour est **moindre** qu'un
+calcul « plein ouest » ne le suggère → **ne pas surdimensionner S1** (cf. §3) et le
+**tri-split devient d'autant plus pertinent**.
+
 ---
 
 ## 2. Présentation de la maison
@@ -90,7 +103,7 @@ au **RDC**.
 
 | Split | Pièce | Niveau | Puissance indicative | Position |
 |---|---|---|---|---|
-| **S1** | Séjour / cuisine / SàM ouverts (~35 m²) | RDC | **4,2–5 kW** (plein ouest, à coupler avec protections solaires) | mur **sud** |
+| **S1** | Séjour / cuisine / SàM ouverts (~35 m²) | RDC | **3,5–4,2 kW** (volets ouest fermés en journée + voile d'ombrage → apport solaire déjà fortement réduit) | mur **sud** |
 | **S2** | Chambre sud-ouest (au-dessus SàM) | R+1 | **~2,5 kW** (sous combles → apport toiture) | mur à préciser |
 | **S3** | Chambre nord-ouest (au-dessus séjour) | R+1 | **~2,5 kW** (sous combles → apport toiture) | mur à préciser |
 | **S4** | **Chambre parentale / bureau** (~15 m², côté est/rue) | R+1 | 2,0–2,5 kW | liaison **via combles** |
@@ -114,10 +127,11 @@ maximaliste**, en tension avec nos propres contraintes : groupe plus gros et plu
 placé dans le **coin le plus chaud** du jardin (Option A), et budget plus élevé. À garder
 en tête :
 
-1. **Préalable n°1 — protections solaires ouest** (volets/stores/BSO sur la porte-fenêtre
-   séjour + fenêtre SàM). Réduit l'apport ouest, permet de tenir **S1 à 4,2 kW au lieu de 5**
-   et **libère de la capacité** du groupe pour les autres unités. **Bien moins cher** que de
-   tout surdimensionner. → À traiter **avant** le choix final de puissance.
+1. **Préalable n°1 — protections solaires ouest : DÉJÀ EN PLACE** ✔ (volets bois ouest +
+   volets roulants est, fermés en chaleur ; voile d'ombrage terrasse + projet voile sur
+   fenêtre SàM, cf. §2). L'apport ouest est donc **déjà fortement réduit** → S1 peut viser
+   **3,5–4,2 kW** (pas 5), ce qui **libère de la capacité** du groupe pour les autres unités
+   et **renforce la viabilité du tri-split**. Rien à dépenser de plus de ce côté.
 2. **Repli sérieux — tri-split** : S1 (séjour) + S4 (bureau) + **1 seule chambre** ; la 2ᵉ
    petite chambre en passif (porte ouverte). Groupe plus petit (~6,8 kW) → **moins de bruit,
    moins gros à cacher, meilleur rendement dans le coin chaud, ~1 000–2 000 € de moins**.
@@ -230,6 +244,13 @@ sans bloquer la circulation d'air.
 - ❌ **Casquette horizontale à ~90 cm déconseillée** : trop près du sommet de l'unité
   (~80–90 cm), piège l'air chaud (recyclage) et peu efficace contre le soleil rasant
   d'ouest. Préférer l'**ombrage vertical** ci-dessus.
+- ✅ **Voile d'ombrage HAUTE au-dessus de la fenêtre SàM (projet, cf. §2) = bonne idée** :
+  contrairement à la casquette basse, une voile **tendue haut (≥ ~2 m au-dessus de l'unité)
+  et ouverte sur les côtés** ombre l'unité aux **heures de soleil haut (midi–début
+  d'après-midi)** **sans piéger l'air chaud** ni gêner le rejet d'air. Bénéfice réel :
+  **température de condensation plus basse → meilleur rendement + moins de bruit**, ce qui
+  **compense en partie le défaut de l'Option A** (coin chaud). Conditions : la laisser
+  **haute et aérée** (pas un capotage), et **ne rien mettre devant la face de soufflage**.
 
 ---
 
@@ -314,6 +335,45 @@ sans bloquer la circulation d'air.
   anti-odeurs) ; (2) sortie mur latéral discret (gravier / puisard / descente EP) ;
   (3) sortie façade rue **à éviter** (tuyau visible, coulures sur l'enduit, nuisance).
 - Détails : [`climatisation-nanterre.md`](climatisation-nanterre.md) §4–§5.
+
+### 6ter. Stratégie de pilotage (efficacité & confort)
+
+La maison combine **bonne inertie + protections solaires fermées + ventilation nocturne**.
+Cela permet une stratégie de **pré-refroidissement** (« charger » la masse de la maison en
+frais quand c'est le plus efficace, puis « rouler en roue libre » au plus chaud), au lieu
+de lutter contre le soleil en pleine après-midi. Stratégie envisagée par l'occupant, **et
+elle est techniquement pertinente** :
+
+1. **Nuit/matin** : aérer à la fraîche (ventilation nocturne) tant que possible.
+2. **Matin** : allumer la clim **après l'aération et avant l'ensoleillement** (≈ avant
+   14–15 h, quand le soleil arrive au sud-ouest). On refroidit pièces + masse **pendant que
+   l'air extérieur est encore frais** et que **l'unité n'est pas en plein soleil**.
+3. **Cœur d'après-midi (≈ 14–19 h)** : volets fermés, **clim coupée ou en consigne relevée
+   (+2–3 °C)** dans les pièces de vie/chambres → on évite de faire tourner le groupe **quand
+   il est en plein soleil et que l'air extérieur est au plus chaud** (rendement au plus bas).
+4. **Soir (après ~19 h)** : le soleil passe derrière la maison (fond de jardin), l'unité
+   n'est plus au soleil → **rallumer pour préparer la nuit**.
+
+**Pourquoi c'est efficace** : le rendement (EER) d'une PAC **chute quand l'air extérieur est
+chaud** et quand le **condenseur est au soleil**. Refroidir à 9 h (22 °C, à l'ombre) ou à
+20 h (28 °C, à l'ombre) **consomme bien moins** que la même quantité de froid produite à
+15 h (35 °C, plein soleil). La **voile d'ombrage sur l'unité** (§5) renforce encore ce gain.
+
+⚠️ **Nuances importantes** :
+- **Le bureau (S4) fait exception** : occupé en télétravail **toute la journée**, il doit
+  **rester climatisé l'après-midi** (refroidissement + déshumidification continus). C'est
+  d'ailleurs cohérent avec le multi-split : si **seul S4 tourne l'après-midi** (les autres
+  coupées), il **dispose de toute la capacité du groupe** → le défaut de « partage de
+  puissance » du quadri **ne se manifeste pas** à ce moment-là. Le pilotage par plages
+  horaires **lisse naturellement le foisonnement** (vie/chambres le matin et le soir, bureau
+  en journée → rarement tout à fond en même temps).
+- **Préférer une consigne relevée (+2–3 °C) plutôt qu'un arrêt total** si une pièce dérive
+  trop avant 19 h : un inverter est **plus efficace en modulation continue** qu'en cycles
+  marche/arrêt, et un redémarrage « maison réchauffée » coûte cher. À ajuster au ressenti.
+- **Déshumidification** : en épisode lourd/moite, des coupures longues laissent l'humidité
+  remonter → si inconfort, garder un **mode déshu/eco** doux plutôt que couper.
+- **Programmation** : utiliser les **plages horaires / programmateur** des unités (ou un
+  thermostat connecté) pour automatiser ces séquences sans intervention manuelle.
 
 ---
 

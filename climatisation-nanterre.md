@@ -226,7 +226,37 @@ en repli** (cf. §7).
 - Unité du **bureau côté rue sur liaison longue** vers le groupe côté jardin (via combles).
 - **Condensats vers évacuation gravitaire la plus proche / eaux usées**, **pas** de retour au
   groupe, **pas de coulure visible en façade rue** ; pompe de relevage silencieuse si besoin.
-- Tout en **RGE / TVA 5,5 % / CEE**.
+- Pose **RGE QualiPAC** + **CEE BAR-TH-129** ; **TVA** : 20 % matériel + 10 % pose (5,5 % à
+  confirmer, cf. §7) — exiger le détail des taux sur le devis.
+- Possibilité de **programmation horaire** des unités (pré-refroidissement, cf. §9).
+
+## 9. Stratégie passive et de pilotage (déjà en place / envisagée)
+
+La maison fait **déjà l'essentiel du passif**, ce qui réduit le besoin de froid et donc le
+dimensionnement (cf. §1, §3) :
+
+- **Protections solaires fermées en chaleur** : volets bois (toutes fenêtres ouest) + volets
+  roulants PVC (2 fenêtres est). C'est la mesure la plus efficace, déjà acquise.
+- **Voile d'ombrage** au-dessus de la terrasse / porte-fenêtre séjour (éventuelle **pergola
+  végétalisée** à terme).
+- **Projet** : voile d'ombrage au-dessus de la fenêtre SàM → **ombre aussi l'unité
+  extérieure** aux heures de soleil haut (tendue **haute et aérée**, pas un capotage) →
+  condenseur plus frais = **meilleur rendement + moins de bruit**.
+- **Ventilation nocturne** quand les nuits le permettent.
+
+**Pilotage par plages horaires (pré-refroidissement)** — pertinent vu la bonne inertie :
+1. aérer à la fraîche la nuit/au matin ;
+2. clim le **matin** (avant l'ensoleillement ~14–15 h), air extérieur frais + unité à
+   l'ombre = rendement max ;
+3. **cœur d'après-midi** : volets fermés, clim **coupée ou consigne +2–3 °C** dans les
+   pièces de vie/chambres (éviter de faire tourner le groupe en plein soleil / air chaud) ;
+4. **soir (après ~19 h)** : unité à l'ombre de la maison → rallumer pour préparer la nuit.
+
+⚠️ **Exception bureau (S4)** : occupé en journée → reste climatisé l'après-midi. Avantage :
+s'il est **seul à tourner**, il dispose de **toute la capacité du groupe** (le « partage de
+puissance » du multi-split ne pénalise pas). Préférer une **consigne relevée** à un arrêt
+total (l'inverter aime la modulation continue ; meilleure déshumidification). Détails et
+nuances : [`AGENTS.md`](AGENTS.md) §6ter.
 
 ## Sources
 

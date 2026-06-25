@@ -66,8 +66,11 @@ title: Plan du jardin et implantation de la climatisation
   H .......... porte-fenetre 3 vantaux du SEJOUR (mur ouest, donne sur la terrasse)
   F .......... fenetre 2 battants de la SALLE A MANGER (mur ouest, ~130 cm,
                juste au-dessus de l'unite exterieure)
-  -> Apports solaires importants cote ouest : prevoir protections (volets/stores)
-     et en tenir compte pour le dimensionnement de S1.
+  -> Apports solaires ouest DEJA traites : volets bois (ouest) + volets roulants
+     (est) fermes en chaleur + voile d'ombrage terrasse (+ projet voile sur F).
+     => besoin de froid reduit -> NE PAS surdimensionner S1 (3,5-4,2 kW).
+  -> Voile d'ombrage projetee au-dessus de F : ombre aussi l'UNITE ext. au soleil
+     haut (tendue HAUTE et aeree, pas un capotage) -> meilleur rendement + moins de bruit.
   -> L'unite ext. souffle vers l'OUEST (a l'oppose), elle ne renvoie pas d'air
      chaud vers la fenetre F : OK, a confirmer avec les degagements.
 
