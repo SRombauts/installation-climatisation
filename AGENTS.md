@@ -90,18 +90,48 @@ au **RDC**.
 
 | Split | Pièce | Niveau | Puissance indicative | Position |
 |---|---|---|---|---|
-| **S1** | Séjour / cuisine / SàM ouverts (~35 m²) | RDC | 3,5 kW (4,2–5 kW si baies très ensoleillées) | mur **sud** |
-| **S2** | Chambre sud-ouest (au-dessus SàM) | R+1 | ~2,0 kW | mur à préciser |
-| **S3** | Chambre nord-ouest (au-dessus séjour) | R+1 | ~2,0–2,5 kW | mur à préciser |
+| **S1** | Séjour / cuisine / SàM ouverts (~35 m²) | RDC | **4,2–5 kW** (plein ouest, à coupler avec protections solaires) | mur **sud** |
+| **S2** | Chambre sud-ouest (au-dessus SàM) | R+1 | **~2,5 kW** (sous combles → apport toiture) | mur à préciser |
+| **S3** | Chambre nord-ouest (au-dessus séjour) | R+1 | **~2,5 kW** (sous combles → apport toiture) | mur à préciser |
 | **S4** | **Chambre parentale / bureau** (~15 m², côté est/rue) | R+1 | 2,0–2,5 kW | liaison **via combles** |
 
 - **Règle de dimensionnement (France)** : ~2,5 kW pour 10–20 m² ; ~3,5 kW pour 20–35 m² ;
   ~5–7 kW pour un grand séjour 50–70 m². **Ne pas surdimensionner** (cycles courts = plus
   de bruit + mauvaise déshumidification).
-- **Total intérieur nominal ≈ 9,5–10,5 kW (4 unités) → groupe extérieur ~7,5–8 kW**
-  (diversité : tout ne tourne pas à fond en même temps). À confirmer par bilan thermique.
+- **Total intérieur nominal ≈ 11–12,5 kW (4 unités) → groupe extérieur ~8 kW**
+  (foisonnement : tout ne tourne pas à fond en même temps). À confirmer par bilan thermique.
+  ⚠️ Un groupe 8 kW partagé entre 4 unités **ne fournit jamais la pleine puissance à toutes
+  en simultané** : le séjour (S1, plus gros besoin) est le premier bridé lors d'un pic
+  (soir de canicule). → Protections solaires ouest = levier clé (cf. ci-dessous + §6).
 - **Unité extérieure** : au sol, **au pied du mur ouest de la salle à manger** (Option A,
   §4/§5), soufflant vers le fond du jardin. Voir le plan : [`plan.md`](plan.md).
+
+### Arbitrage tri-split vs quadri-split (à assumer)
+
+Le **quadri-split est l'option confort maximale** (un split par pièce, chaque chambre
+pilotée indépendamment) — c'est ce qui est retenu. Mais c'est aussi **l'option
+maximaliste**, en tension avec nos propres contraintes : groupe plus gros et plus bruyant,
+placé dans le **coin le plus chaud** du jardin (Option A), et budget plus élevé. À garder
+en tête :
+
+1. **Préalable n°1 — protections solaires ouest** (volets/stores/BSO sur la porte-fenêtre
+   séjour + fenêtre SàM). Réduit l'apport ouest, permet de tenir **S1 à 4,2 kW au lieu de 5**
+   et **libère de la capacité** du groupe pour les autres unités. **Bien moins cher** que de
+   tout surdimensionner. → À traiter **avant** le choix final de puissance.
+2. **Repli sérieux — tri-split** : S1 (séjour) + S4 (bureau) + **1 seule chambre** ; la 2ᵉ
+   petite chambre en passif (porte ouverte). Groupe plus petit (~6,8 kW) → **moins de bruit,
+   moins gros à cacher, meilleur rendement dans le coin chaud, ~1 000–2 000 € de moins**.
+   Les chambres ne servant que la nuit (pas toutes occupées en même temps), la perte de
+   confort est faible. Le **4ᵉ split (chambre)** est celui au rapport confort/coût le plus
+   discutable (~800–1 500 € posés pour 10–12 m² occupés la nuit).
+3. **À demander aux installateurs** : un **gainable discret dans les combles** pour les
+   3 chambres (1 seule unité, bouches au plafond, rien aux murs) est-il faisable malgré la
+   faible hauteur sous pente ? Probablement non ici, mais à poser comme question.
+4. **Écarté** : 2 groupes extérieurs (contraire à « 1 seul boîtier à cacher »).
+
+> **Décision** : on part sur le **quadri** (confort), **avec protections solaires ouest**
+> comme préalable, et on **fait chiffrer le tri-split en parallèle** sur les devis pour
+> arbitrer au vu des prix réels. Estimations détaillées : [`climatisation-nanterre.md`](climatisation-nanterre.md) §7.
 
 ---
 
@@ -224,12 +254,20 @@ sans bloquer la circulation d'air.
 - **Réversibilité** : **système réversible souhaité (PAC air-air, chaud en hiver)**. ✔
 - **Passage des liaisons** frigorifiques : voir **§6bis** (notamment bureau côté rue via combles).
 - **Évacuation des condensats** : voir **§6bis** (gravité / pompe / point de rejet).
-- **Niveau sonore** : exiger les dB(A) de l'unité extérieure (mode nuit / silencieux).
-  Repère : groupe extérieur ~**46–49 dB(A)** ; unités intérieures haut de gamme ~**19 dB(A)**
-  en mode silence. **Écran à lamelles OK, coffrage fermé INTERDIT** (recirculation d'air chaud).
+- **Niveau sonore** : exiger les dB(A) de l'unité extérieure **à pleine charge ET en mode
+  nuit** (pas seulement le chiffre marketing). Repère : ~**46–49 dB(A)** vaut pour un petit
+  mono-split ou la charge partielle ; un **groupe quadri ~8 kW à pleine charge est plutôt
+  50–54 dB(A)** → enjeu réel vu la haie nord (voisin de copro) et la priorité silence.
+  Unités intérieures haut de gamme ~**19 dB(A)** en mode silence. **Écran à lamelles OK,
+  coffrage fermé INTERDIT** (recirculation d'air chaud).
+- **Performances (SEER/SCOP)** : ⚠️ les valeurs « vitrines » (SEER jusqu'à ~10,5, SCOP ~5,2)
+  sont des chiffres **mono-split**. **En multi-split on ne les atteint pas** : le groupe
+  quadri retenu (**Daikin 4MXM80A**) affiche **SEER 8,32 / SCOP 4,55**. À garder en tête
+  pour la conso et pour le **CEE BAR-TH-129** (montant lié au SCOP).
 - **Modèles** (R32, A+++, Inverter, ~19 dB(A) silence) : Mitsubishi MSZ-LN / MSZ-AY,
   Daikin Perfera (meilleur SAV FR), Atlantic Takao M3 (meilleur rapport perf/prix),
-  Toshiba Haori, Panasonic Etherea Z. Détails/prix : [`climatisation-nanterre.md`](climatisation-nanterre.md) §6.
+  Toshiba Haori, Panasonic Etherea Z. **Groupes multi-split** : Daikin 4MXM80A / 3MXM68A,
+  Mitsubishi MXZ-4F80VF / 3F68VF. Détails/prix : [`climatisation-nanterre.md`](climatisation-nanterre.md) §6.
 - **Entretien** : accessibilité, contrat d'entretien (~80–150 €/an ; durée de vie 10–15 ans).
 
 ### Dimensions de référence d'une unité extérieure (ordres de grandeur)
@@ -293,17 +331,37 @@ sans bloquer la circulation d'air.
 
 ## 8. Budget et calendrier
 
-- **Budget cible** : **5 000 – 8 000 €** (matériel + pose). ✔
+- **Budget cible initial** : 5 000 – 8 000 € — **réaliste pour un tri-split** ; le **quadri
+  retenu coûte davantage** (voir ci-dessous). À acter dans nos attentes.
 - **Échéance souhaitée** : **pas pressé** — projet à instruire posément (AG, devis,
   concertation voisins, comparaisons). Installation possible hors saison. ✔
+
+### Budget prévisionnel par option (posé TTC, IDF — estimations)
+
+| Option | Confort | Total posé TTC | Commentaire |
+|---|---|---|---|
+| **Quadri (4 unités)** — retenu | Maximal | **~8 000–11 500 €** | Gamme éco ~8–9,5 k€ ; gamme perfs (Perfera) ~9,5–11,5 k€ |
+| **Tri-split (3 unités)** — repli | Très bon | **~6 500–9 500 €** | 1 chambre en passif ; meilleur rapport confort/prix/bruit |
+| **Bi-split (2 unités)** — minimal | Correct | **~5 200–7 500 €** | Séjour + bureau seuls ; chambres en passif |
+
+→ Décomposition détaillée (matériel ligne par ligne + main-d'œuvre + fournitures + pompe +
+élec.) dans [`climatisation-nanterre.md`](climatisation-nanterre.md) §7.
+
 - **Cadre financier / aides** :
-  - Pose par **installateur RGE QualiPAC obligatoire** (manipulation des fluides) — seul à
-    débloquer la **TVA 5,5 %** et le **bonus CEE (fiche BAR-TH-129)**.
+  - Pose par **installateur RGE QualiPAC obligatoire** (manipulation des fluides F-Gas) —
+    seul à débloquer la **TVA réduite sur la main-d'œuvre** et le **bonus CEE (BAR-TH-129)**.
+  - **TVA (PAC air-air, logement > 2 ans)** : règle solidement établie = **20 % matériel +
+    10 % main-d'œuvre**. Le **5,5 %** a été *annoncé* (loi de finances 2026) mais son
+    application effective est **contestée selon les sources** (juin 2026) et ne porterait,
+    au mieux, **que sur la main-d'œuvre**. **À vérifier** (impots.gouv.fr + installateur)
+    avant signature. ⚠️ *(L'ancienne mention « TVA 5,5 % débloquée par le RGE » était une
+    simplification erronée.)*
   - ⚠️ **Pas de MaPrimeRénov'** pour les PAC air-air (clim réversible).
-  - **Demander au moins 3 devis** (main-d'œuvre IDF +15–25 % vs province).
+  - **CEE BAR-TH-129** : prime air-air **modeste** (quelques dizaines à ~150 €, selon
+    l'obligé et le SCOP) — à demander, mais ne pas surévaluer.
+  - **Demander au moins 3 devis** (main-d'œuvre IDF +15–25 % vs province) ; **faire chiffrer
+    quadri ET tri-split** pour arbitrer (cf. §3).
   - Entretien annuel ~**80–150 €** ; durée de vie **10–15 ans**.
-- **Repère budget posé (IDF)** : **tri-split ~5–8 k€** ; solution à 2 groupes ~5,5–9 k€ ;
-  liaison longue vers le bureau **+ quelques centaines €** (+ pompe condensats éventuelle).
 - Détails et modèles : [`climatisation-nanterre.md`](climatisation-nanterre.md).
 
 ---

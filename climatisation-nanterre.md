@@ -41,11 +41,16 @@ reliée par des tuyaux au groupe côté jardin.
 
 ### Configuration recommandée (tri-split, 1 groupe extérieur caché)
 
+> Note : l'étude penche pour le **tri-split** (meilleur rapport confort/prix/bruit). Le
+> dossier projet retient finalement le **quadri** par choix de confort (un split par
+> chambre) — voir l'**arbitrage tri/quadri** dans [`AGENTS.md`](AGENTS.md) §3 et les
+> **estimations chiffrées des deux** en §7 ci-dessous.
+
 | Unité | Pièce | Puissance | Raison |
 |---|---|---|---|
 | 1 | Séjour ouvert RDC (~35 m²) | 3,5 kW (4,2–5,0 kW si grandes baies ensoleillées) | Pièce de vie principale |
 | 2 | **Bureau / chambre parentale (~15 m²)**, côté rue | 2,0–2,5 kW | Poste de télétravail, refroidi + déshumidifié directement |
-| 3 | Une chambre (12 m²) | 2,0 kW | Confort nuit |
+| 3 | Une chambre (12 m²) **sous combles** | 2,5 kW | Confort nuit (apport par la toiture → 2,5 plutôt que 2,0 kW) |
 
 - La **chambre de 10 m²** est rafraîchie passivement la nuit (porte ouverte) — acceptable
   pour une petite pièce adjacente inoccupée en journée.
@@ -96,6 +101,13 @@ Si raccordement eaux usées → **siphon obligatoire**.
 
 ## 6. Modèles recommandés (unités murales hautes perfs, silencieuses)
 
+> ⚠️ **Les SEER/SCOP du tableau ci-dessous sont des valeurs MONO-SPLIT** (un groupe = une
+> unité), là où elles sont les plus hautes. **En multi-split, on ne les atteint pas** : le
+> groupe est partagé, les pertes augmentent. Référence réelle du groupe quadri retenu
+> (**Daikin 4MXM80A**) : **SEER 8,32 / SCOP 4,55** (A++/A+), pas ~10,5 / 5,2. Important
+> aussi pour le **CEE BAR-TH-129**, dont le montant dépend du SCOP (et reste modeste pour
+> de l'air-air).
+
 Valeurs pour la classe ~2,5 kW (9000 BTU) où le SEER/SCOP est le plus élevé. Tous R32, A+++,
 Inverter, ~19 dB(A) en mode silence.
 
@@ -119,19 +131,92 @@ plage −15→−25 °C en chauffe, jusqu'à +46→+50 °C en froid.
 Éviter les gammes « premium design/connecté » (Emura, Haori déco) : plus chères pour
 de l'esthétique/Wi-Fi sans gain d'efficacité.
 
+### Groupes extérieurs multi-split (selon l'architecture)
+
+Prix **groupe extérieur seul** (hors unités intérieures, hors pose), relevés chez des
+revendeurs FR (juin 2026).
+
+| Groupe extérieur | Sorties | Froid / Chaud | SEER / SCOP | Prix indicatif |
+|---|---|---|---|---|
+| **Daikin 4MXM80A** | 4 (quadri) | 7,4–8,0 / 9,6 kW | **8,32 / 4,55** (A++/A+) | ~2 725–2 899 € |
+| **Mitsubishi MXZ-4F80VF** | 4 (quadri) | 8,0 / 9,0 kW | ~8,1 / 4,4 | ~2 629 € |
+| **Daikin 3MXM68A** | 3 (tri) | 6,8 / 8,2 kW | ~8,6 / 4,6 | ~2 100–2 300 € |
+| **Mitsubishi MXZ-3F68VF** | 3 (tri) | 6,8 / 8,6 kW | ~8,3 / 4,5 | ~2 000–2 200 € |
+| **Daikin 2MXM50A** | 2 (bi) | ~5,0 / 5,6 kW | ~8,7 / 4,6 | ~1 400–1 600 € |
+
+→ **À retenir** : un groupe **quadri 8 kW partagé entre 4 unités** ne délivre jamais sa
+pleine puissance à toutes en même temps (foisonnement). Le séjour (plus gros besoin) est
+le premier bridé lors d'un pic simultané (soir de canicule). D'où l'intérêt des
+**protections solaires ouest** pour baisser le besoin de S1, et du chiffrage du **tri-split
+en repli** (cf. §7).
+
 ## 7. Budget indicatif (Île-de-France, posé)
 
-| Option | Matériel seul | Posé en IDF | Notes |
-|---|---|---|---|
-| **Tri-split (1 groupe)** — recommandé | ~2 500–3 500 € | **~5 000–8 000 €** | Liaisons verticales vers l'étage |
-| Mono (RDC) + Bi-split (étage) — 2 groupes | ~2 800–4 000 € | ~5 500–9 000 € | Plus efficace mais 2 boîtiers à cacher |
+> Le budget initialement noté (5–8 k€) correspondait au **tri-split** ; il **sous-estime le
+> quadri**. Estimations révisées ci-dessous, posé TTC par installateur RGE en IDF.
 
-- Liaison plus longue vers le bureau côté rue : **+ quelques centaines €** (+ pompe condensats
-  éventuelle).
-- IDF : main-d'œuvre +15–25 % vs province → **demander au moins 3 devis**.
-- Pose par **installateur RGE QualiPAC** obligatoire (manipulation des fluides), seul à
-  débloquer **TVA 5,5 %** + **bonus CEE (fiche BAR-TH-129)**.
+### Estimations détaillées par option
+
+**Option Q — QUADRI-SPLIT (4 unités, 1 groupe) — confort max, archi retenue**
+
+| Poste | Gamme perfs (Perfera/MSZ-LN) | Gamme éco (Takao/MSZ-AY) |
+|---|---|---|
+| Groupe ext. (4MXM80 / MXZ-4F80) | ~2 800 € | ~2 629 € |
+| S1 séjour (FTXM50R / 5,0 kW) | ~1 000 € | ~700 € |
+| S2 + S3 + S4 (3 × 2,5 kW) | ~2 250 € | ~1 650 € |
+| **Sous-total matériel** | **~6 050 €** | **~4 980 €** |
+| Fournitures (cuivre, goulottes, dalles, plots) | ~400–700 € | ~400–700 € |
+| Ligne(s) élec. dédiée(s) + disjoncteurs | ~300–600 € | ~300–600 € |
+| Pompe de relevage condensats (si besoin S4) | ~150–300 € | ~150–300 € |
+| Main-d'œuvre (4 unités, liaison combles ~18 m) | ~3 000–4 500 € | ~2 800–4 000 € |
+| **TOTAL POSÉ TTC** | **~9 500–11 500 €** | **~8 000–9 500 €** |
+
+**Option T — TRI-SPLIT (3 unités, 1 groupe) — repli recommandé**
+*(S1 séjour + S4 bureau + 1 chambre ; 2ᵉ petite chambre rafraîchie en passif porte ouverte)*
+
+| Poste | Gamme perfs | Gamme éco |
+|---|---|---|
+| Groupe ext. (3MXM68 / MXZ-3F68) | ~2 200 € | ~2 100 € |
+| S1 séjour (5,0 kW) | ~1 000 € | ~700 € |
+| 2 × 2,5 kW (bureau + 1 chambre) | ~1 500 € | ~1 100 € |
+| **Sous-total matériel** | **~4 700 €** | **~3 900 €** |
+| Fournitures + élec. + pompe éventuelle | ~850–1 600 € | ~850–1 600 € |
+| Main-d'œuvre (3 unités, liaison combles ~18 m) | ~2 500–3 800 € | ~2 300–3 200 € |
+| **TOTAL POSÉ TTC** | **~8 000–9 500 €** | **~6 500–8 000 €** |
+
+**Option B — BI-SPLIT (2 unités, 1 groupe) — minimaliste**
+*(S1 séjour + S4 bureau seuls ; les 3 chambres en passif — à réserver si budget serré)*
+
+| Poste | Gamme perfs | Gamme éco |
+|---|---|---|
+| Groupe ext. (2MXM50) | ~1 500 € | ~1 400 € |
+| S1 (5,0 kW) + bureau (2,5 kW) | ~1 700 € | ~1 250 € |
+| **Sous-total matériel** | **~3 200 €** | **~2 650 €** |
+| Fournitures + élec. + pompe éventuelle | ~700–1 400 € | ~700–1 400 € |
+| Main-d'œuvre (2 unités, liaison combles ~18 m) | ~2 000–3 000 € | ~1 800–2 600 € |
+| **TOTAL POSÉ TTC** | **~6 000–7 500 €** | **~5 200–6 600 €** |
+
+### Synthèse
+
+| Option | Confort | Total posé TTC | Pour qui |
+|---|---|---|---|
+| **Quadri (Q)** | Maximal (chaque pièce pilotée) | **~8 000–11 500 €** | Si budget OK et confort prioritaire |
+| **Tri (T)** — repli | Très bon (1 chambre passive) | **~6 500–9 500 €** | Meilleur rapport confort/prix/bruit |
+| **Bi (B)** | Correct (chambres passives) | **~5 200–7 500 €** | Budget serré, besoin séjour + bureau |
+
+### Cadre financier et aides
+
+- IDF : main-d'œuvre **+15–25 %** vs province → **demander au moins 3 devis**.
+- Pose par **installateur RGE QualiPAC obligatoire** (manipulation des fluides F-Gas), seul
+  à débloquer la **TVA réduite sur la main-d'œuvre** et le **bonus CEE (fiche BAR-TH-129)**.
+- **TVA (PAC air-air, logement > 2 ans)** : règle solidement établie = **20 % sur le
+  matériel + 10 % sur la main-d'œuvre**. Un passage à **5,5 %** a été *annoncé* (loi de
+  finances 2026) mais son entrée en vigueur effective est **contestée selon les sources**
+  (juin 2026) et ne porterait, au mieux, **que sur la main-d'œuvre** (matériel toujours à
+  20 %). **À vérifier** sur impots.gouv.fr et auprès de l'installateur avant signature.
 - ⚠️ **Pas de MaPrimeRénov'** pour les PAC air-air (clim réversible).
+- **CEE BAR-TH-129** : prime air-air **modeste** (souvent quelques dizaines à ~150 €,
+  variable selon l'obligé et le SCOP) — à demander mais ne pas surévaluer.
 - Entretien annuel ~80–150 € ; durée de vie 10–15 ans.
 
 ## 8. À mettre dans le cahier des charges pour les devis
@@ -154,6 +239,12 @@ de l'esthétique/Wi-Fi sans gain d'efficacité.
 - [Mitsubishi MSZ-LN25 specs — climamania.com](https://www.climamania.com/en/air-conditioning-mitsubishi-msz-ln25vg-blanco-kirigamine-style.html)
 - [Atlantic Takao M3 fiche — atlantic.fr](https://www.atlantic.fr/Climatiser-le-logement/Climatisation-reversible-pour-une-seule-piece/Climatisation-reversible-murale/Takao-M3-Unite-interieure)
 - [Coût d'installation climatisation — chauffage-et-climatisation.fr](https://www.chauffage-et-climatisation.fr/guide-achat/quel-est-le-cout-dinstallation-dune-climatisation/)
+- [Groupe quadri Daikin 4MXM80A (SEER 8,32 / SCOP 4,55) — clim-planete.com](https://www.clim-planete.com/1744-unite-exterieure-4mxm80-inverter-daikin.html)
+- [Groupe quadri Mitsubishi MXZ-4F80VF — clim-planete.com](https://www.clim-planete.com/2433-unite-exterieure-mxz-4f80vf-mitsubishi-electric-4-sorties-climatisation-inverter-reversible-multi-split.html)
+- [Daikin 4MXM80A prix/specs — toutelaclim.com](https://toutelaclim.com/produit/unite-exterieure-4mxm80n-daikin-4-sorties-climatisation-inverter-reversible-multi-split/)
+- [TVA climatisation réversible 2026 — engie-homeservices.fr](https://www.engie-homeservices.fr/dossiers/tva-climatisation-reversible)
+- [TVA chauffagiste 2026 (PAC, rénovation, neuf) — kelyseo.com](https://www.kelyseo.com/blog/tva-chauffagiste-travaux-taux)
+- [TVA PAC air-air — effy.fr](https://www.effy.fr/aide-energetique/pac-air-air/tva)
 
 ---
-*Discussion synthétisée le 2026-06-25.*
+*Discussion synthétisée le 2026-06-25. Analyse critique + estimations chiffrées ajoutées le 2026-06-25.*
