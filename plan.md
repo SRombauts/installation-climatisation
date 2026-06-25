@@ -38,10 +38,10 @@ title: Plan du jardin et implantation de la climatisation
   U                     .                 H                       CUISINE   |
   R                     .    TERRASSE     H  SEJOUR                         |
   |                     .     ~16 m2      H                                 |
-  F                     .                 |                               |
+  F                     .                 |                                 |
   O                     .                 |                                 |
   N                     .                 |                 +---------------+
-  D                     ..................+-----+           |               |
+  D                     . . . . . . . . . +-----+           |               |
   |                                             F  SALLE A  |               |
   O                                             F  MANGER   |    GARAGE     |
   U                                             F  [S1]     |               |
@@ -60,7 +60,7 @@ title: Plan du jardin et implantation de la climatisation
   MUR gauche  mur beton blanc = limite OUEST (fond du jardin, limite de copro / autre lotissement)
   haie       limite NORD (jardin d'un voisin de la meme copropriete)
   cloture    cloture bois 2 m = limite SUD (jardin d'un voisin de la meme copropriete)
-  .......    délimitation terrasse
+  . . . .    délimitation terrasse
 
   FENETRES (ouvertures vitrees, toutes orientees OUEST -> fort soleil d'apres-midi/soir)
   H .......... porte-fenetre 3 vantaux du SEJOUR (mur ouest, donne sur la terrasse)
@@ -155,14 +155,27 @@ title: Plan du jardin et implantation de la climatisation
 | F (×2) | Chambres Nord & Sud (R+1) | Fenêtres identiques | façade **ouest** |
 | F (×2) | S.D.B & chambre parentale (R+1) | Fenêtres identiques | façade **est** |
 
+## Distances de liaison (estimations)
+
+Emprise de la maison au sol : **un peu moins de 8 × 8 m**. Groupe extérieur dans le
+recoin sud-ouest (au pied du mur ouest de la SàM). Longueurs de liaison frigorifique
+**approximatives** (à confirmer par l'installateur) :
+
+| Split | Trajet | Longueur estimée |
+|---|---|---|
+| S1 (SàM, RDC) | juste derrière le mur ouest | ~2–3 m |
+| S2 (chambre SO, R+1) | montée verticale au-dessus de la SàM | ~5–6 m |
+| S3 (chambre NO, R+1) | étage + décalage vers le nord (séjour) | ~8–10 m |
+| S4 (bureau, côté est) | combles → traversée ouest → descente façade jardin | ~15–18 m |
+
+→ **Total ≈ 30–35 m**, plus longue branche ≈ 18 m : **dans les limites multi-split**
+(~25 m/branche, ~60–70 m total).
+
 ## Notes / à corriger par l'occupant
 
 - [x] Orientation confirmée : terrasse au **nord**, fond du jardin à l'**ouest**,
       haie au **nord**, clôture bois au **sud**.
-- [x] Fenêtres ajoutées : porte-fenêtre 3 vantaux (séjour) + fenêtre 2 battants (SàM),
-      les deux côté **ouest**.
-- [ ] Préciser la forme exacte du **L** (où s'arrêtent terrasse et pelouse).
-- [ ] Emplacement (une fois connu) de la **trappe d'évacuation des eaux**.
-- [ ] Mur exact pour **S2** et **S3** à l'étage, et leurs fenêtres.
-- [ ] Autres ouvertures (cuisine, garage) si pertinent.
-- [ ] Distances entre l'unité extérieure et les **4 splits** (longueur des liaisons).
+- [x] Forme du **L** et **terrasse** : dessinées (RDC).
+- [x] **Murs et fenêtres** d'intérêt : tous marqués (H, F au RDC + R+1).
+- [x] **Distances de liaison** : estimées (emprise maison < 8 × 8 m) — voir section ci-dessus.
+- [ ] Emplacement (à localiser sur place) de la **trappe d'évacuation des eaux**.

@@ -33,6 +33,7 @@ nuits sont trop chaudes et sans vent.
 - **Localisation** : Nanterre (92), France.
 - **Année de construction** : ~1997.
 - **Type** : maison compacte, **R+1 + combles aménagés** (2 étages + combles).
+- **Emprise au sol** : **un peu moins de 8 × 8 m**.
 - **Isolation** : moyenne (« moyennement bien isolée »).
 - **Inertie** : bonne capacité à garder le frais au RDC si ventilation nocturne possible.
 
@@ -174,7 +175,9 @@ L'unité (ou les unités) **extérieure(s)** :
 - **Décision : abandonnée.** Seule l'**Option A** est retenue.
 
 **Autres points à préciser** :
-- Distance entre l'Option A et chaque pièce à climatiser (longueur de liaisons frigorifiques). **[À COMPLÉTER]**
+- Distances de liaison entre l'Option A et chaque split : **estimées** (~2–3 m pour S1
+  jusqu'à ~15–18 m pour S4 via combles ; total ~30–35 m, dans les limites multi-split).
+  Voir [`plan.md`](plan.md) § « Distances de liaison ». ✔
 - Présence d'une évacuation pour les condensats. **[À COMPLÉTER]**
 - Accès pour la maintenance. **[À COMPLÉTER]**
 - **Sens de soufflage** de l'unité en Option A : ✔ **vers l'ouest-nord-ouest, vers le
