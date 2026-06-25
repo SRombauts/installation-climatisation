@@ -68,23 +68,24 @@ Pièces à climatiser **directement** (un split par pièce) :
 > télétravail occupé toute la journée**, il faut une unité dédiée.
 > (cf. [`climatisation-nanterre.md`](climatisation-nanterre.md) §3)
 
-### Décision d'architecture : nombre d'unités intérieures (à arbitrer)
+### Décision d'architecture ✔ (pré-étude théorique)
 
-Le **groupe extérieur reste unique et côté jardin** dans tous les cas (§4). À trancher,
-car **impact direct sur le budget** :
+**Configuration retenue : quadri-split (4 unités intérieures) sur 1 seul groupe extérieur**
+unique, au sol côté jardin (§4). Un split dans **chacune des 3 chambres de l'étage** + un
+au **RDC**.
 
-- **Quadri-split (4 unités)** : S1 (séjour) + S2 + S3 (les 2 chambres) + S4 (bureau).
-  Confort maximal, mais coût **probablement au-dessus** de l'enveloppe 5–8 k€.
-- **Tri-split (3 unités) — recommandé par l'étude** : S1 (séjour) + S4 (bureau) +
-  **une seule** chambre. La plus petite chambre (~10 m²) reste en rafraîchissement
-  **passif** (porte ouverte la nuit) — acceptable pour une petite pièce adjacente peu
-  occupée en journée. Coût contenu (~5–8 k€ posé).
+- S1 (séjour RDC) + S2 (chambre SO) + S3 (chambre NO) + S4 (chambre parentale / bureau).
+- Choix orienté **confort** : chaque chambre pilotée indépendamment, et le bureau de
+  télétravail rafraîchi/déshumidifié **directement** (pas de passif).
+- *(Variante tri-split — 3 unités, une chambre en passif — écartée : on préfère un split
+  par chambre. L'option « 2 groupes extérieurs » a aussi été écartée pour rester sur un
+  seul boîtier à dissimuler.)*
 
 > **Insight important** : l'unité intérieure et le groupe extérieur **ne sont pas obligés
 > d'être du même côté** de la maison ; seul le **groupe** est contraint (côté jardin). Le
 > bureau côté rue peut donc être relié au groupe côté jardin **via les combles** (§6bis).
 
-### Unités intérieures (selon la config retenue)
+### Unités intérieures retenues (quadri-split)
 
 | Split | Pièce | Niveau | Puissance indicative | Position |
 |---|---|---|---|---|
@@ -96,8 +97,8 @@ car **impact direct sur le budget** :
 - **Règle de dimensionnement (France)** : ~2,5 kW pour 10–20 m² ; ~3,5 kW pour 20–35 m² ;
   ~5–7 kW pour un grand séjour 50–70 m². **Ne pas surdimensionner** (cycles courts = plus
   de bruit + mauvaise déshumidification).
-- **Total intérieur nominal ≈ 7,5–9 kW → groupe extérieur ~6,8 kW** (diversité : tout ne
-  tourne pas à fond en même temps).
+- **Total intérieur nominal ≈ 9,5–10,5 kW (4 unités) → groupe extérieur ~7,5–8 kW**
+  (diversité : tout ne tourne pas à fond en même temps). À confirmer par bilan thermique.
 - **Unité extérieure** : au sol, **au pied du mur ouest de la salle à manger** (Option A,
   §4/§5), soufflant vers le fond du jardin. Voir le plan : [`plan.md`](plan.md).
 

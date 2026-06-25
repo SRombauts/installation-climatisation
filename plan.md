@@ -72,10 +72,11 @@ title: Plan du jardin et implantation de la climatisation
      chaud vers la fenetre F : OK, a confirmer avec les degagements.
 
   ETAGE (R+1) - unites interieures (au-dessus du RDC, non representees ci-dessus)
-  [S2] ....... split interieur n.2 : CHAMBRE au-dessus de la SALLE A MANGER
-  [S3] ....... split interieur n.3 : CHAMBRE au-dessus du SEJOUR
-  -> Les 3 splits sont regroupes du cote ouest/sud, proches de l'unite exterieure
-     (liaisons frigorifiques courtes).
+  [S2] ....... split n.2 : CHAMBRE au-dessus de la SALLE A MANGER (ouest)
+  [S3] ....... split n.3 : CHAMBRE au-dessus du SEJOUR (ouest)
+  [S4] ....... split n.4 : CHAMBRE PARENTALE / bureau (est) - liaison via combles
+  -> 4 splits au total (S1 au RDC + S2/S3/S4 a l'etage), 1 SEUL groupe exterieur.
+  -> S1/S2/S3 cote ouest/sud (liaisons courtes) ; S4 cote est via les combles.
 
   COTES DU RECOIN EN L (Option A retenue)
   - Recoin : 130 x 220 cm (au pied du mur ouest de la salle a manger)
@@ -151,8 +152,8 @@ title: Plan du jardin et implantation de la climatisation
 |---|---|---|---|
 | H | Séjour | Porte-fenêtre **3 vantaux** | mur **ouest**, donne sur la terrasse |
 | F | Salle à manger | Fenêtre **2 battants** (~130 cm) | mur **ouest**, au-dessus de l'unité ext. |
-| o (×2) | Chambres Nord & Sud (R+1) | Fenêtres identiques | façade **ouest** |
-| o (×2) | S.D.B & chambre parentale (R+1) | Fenêtres identiques | façade **est** |
+| F (×2) | Chambres Nord & Sud (R+1) | Fenêtres identiques | façade **ouest** |
+| F (×2) | S.D.B & chambre parentale (R+1) | Fenêtres identiques | façade **est** |
 
 ## Notes / à corriger par l'occupant
 
@@ -164,4 +165,4 @@ title: Plan du jardin et implantation de la climatisation
 - [ ] Emplacement (une fois connu) de la **trappe d'évacuation des eaux**.
 - [ ] Mur exact pour **S2** et **S3** à l'étage, et leurs fenêtres.
 - [ ] Autres ouvertures (cuisine, garage) si pertinent.
-- [ ] Distances entre l'unité extérieure et les **3 splits** (longueur des liaisons).
+- [ ] Distances entre l'unité extérieure et les **4 splits** (longueur des liaisons).
