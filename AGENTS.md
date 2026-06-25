@@ -203,6 +203,10 @@ sans bloquer la circulation d'air.
     inconnu à l'étage** → l'ajout de lignes vers l'étage **n'est pas garanti**. À
     inspecter (où débouche-t-elle, sections disponibles). **[À VÉRIFIER]**
 - **Type de système** : mono-split / multi-split / gainable ? (préférence : discret + silencieux)
+- **Apports solaires (ouest)** : le séjour (porte-fenêtre 3 vantaux) et la salle à manger
+  (fenêtre 2 battants) sont **vitrés plein ouest** → fort soleil d'après-midi/soir en été.
+  À **prendre en compte pour le dimensionnement de S1** et à coupler avec des **protections
+  solaires** (volets/stores) pour ne pas surdimensionner la clim. Voir [`plan.md`](plan.md).
 - **Réversibilité** : **système réversible souhaité (PAC air-air, chaud en hiver)**. ✔
 - **Passage des liaisons** frigorifiques entre l'extérieur et chaque pièce (gaines, percements, façade). **[À COMPLÉTER]**
 - **Évacuation des condensats** (intérieur + extérieur). **[À COMPLÉTER]**

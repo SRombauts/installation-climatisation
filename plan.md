@@ -34,18 +34,18 @@ title: Plan du jardin et implantation de la climatisation
   +-- haie (limite NORD - voisin copro) --+---------------------------------+
   |                     .                 |                                 |
   |                     .                 |                                 |
-  M                     .                 |                                 |
-  U                     .                 |                       CUISINE   |
-  R                     .    TERRASSE     |  SEJOUR                         |
-  |                     .     ~16 m2      |                                 |
-  F                     .                 |                                 |
+  M                     .                 H                                 |
+  U                     .                 H                       CUISINE   |
+  R                     .    TERRASSE     H  SEJOUR                         |
+  |                     .     ~16 m2      H                                 |
+  F                     .                 |                               |
   O                     .                 |                                 |
-  N                     .                 |                 +---------------+              
+  N                     .                 |                 +---------------+
   D                     ..................+-----+           |               |
-  |                                             |  SALLE A  |               |
-  O                                             |  MANGER   |    GARAGE     |
-  U                <<<<< soufflage clim [UNITE] |  [S1]     |               |
-  E                                             |           |               |
+  |                                             F  SALLE A  |               |
+  O                                             F  MANGER   |    GARAGE     |
+  U                                             F  [S1]     |               |
+  E                <<<<< soufflage clim [UNITE] |           |               |
   S                                             +--mur sud--+---------------+
   T        JARDIN                                           |
   |     pelouse (~60 m2)                                    |
@@ -62,6 +62,15 @@ title: Plan du jardin et implantation de la climatisation
   cloture    cloture bois 2 m = limite SUD (jardin d'un voisin de la meme copropriete)
   .......    délimitation terrasse
 
+  FENETRES (ouvertures vitrees, toutes orientees OUEST -> fort soleil d'apres-midi/soir)
+  H .......... porte-fenetre 3 vantaux du SEJOUR (mur ouest, donne sur la terrasse)
+  F .......... fenetre 2 battants de la SALLE A MANGER (mur ouest, ~130 cm,
+               juste au-dessus de l'unite exterieure)
+  -> Apports solaires importants cote ouest : prevoir protections (volets/stores)
+     et en tenir compte pour le dimensionnement de S1.
+  -> L'unite ext. souffle vers l'OUEST (a l'oppose), elle ne renvoie pas d'air
+     chaud vers la fenetre F : OK, a confirmer avec les degagements.
+
   ETAGE (R+1) - unites interieures (au-dessus du RDC, non representees ci-dessus)
   [S2] ....... split interieur n.2 : CHAMBRE au-dessus de la SALLE A MANGER
   [S3] ....... split interieur n.3 : CHAMBRE au-dessus du SEJOUR
@@ -70,7 +79,7 @@ title: Plan du jardin et implantation de la climatisation
 
   COTES DU RECOIN EN L (Option A retenue)
   - Recoin : 130 x 220 cm (au pied du mur ouest de la salle a manger)
-  - Fenetre : 130 cm le long du grand cote (220 cm)
+  - Fenetre : 130 cm (2 battants) le long du grand cote (220 cm)
   - ~90 cm de mur plein avant l'angle cote pignon SUD
   - ~1 m de mur plein (allege) sous la fenetre -> pose au sol possible
   - ATTENTION : trappe d'acces a l'evacuation des eaux quelque part dans ce coin
@@ -88,11 +97,21 @@ title: Plan du jardin et implantation de la climatisation
 | S2 | Chambre au-dessus de la salle à manger | R+1 | à préciser |
 | S3 | Chambre au-dessus du séjour | R+1 | à préciser |
 
+## Ouvertures (fenêtres / portes-fenêtres)
+
+| Repère | Pièce | Type | Mur / orientation |
+|---|---|---|---|
+| H | Séjour | Porte-fenêtre **3 vantaux** | mur **ouest**, donne sur la terrasse |
+| F | Salle à manger | Fenêtre **2 battants** (~130 cm) | mur **ouest**, au-dessus de l'unité ext. |
+
 ## Notes / à corriger par l'occupant
 
 - [x] Orientation confirmée : terrasse au **nord**, fond du jardin à l'**ouest**,
       haie au **nord**, clôture bois au **sud**.
+- [x] Fenêtres ajoutées : porte-fenêtre 3 vantaux (séjour) + fenêtre 2 battants (SàM),
+      les deux côté **ouest**.
 - [ ] Préciser la forme exacte du **L** (où s'arrêtent terrasse et pelouse).
 - [ ] Emplacement (une fois connu) de la **trappe d'évacuation des eaux**.
-- [ ] Mur exact pour **S2** et **S3** à l'étage.
+- [ ] Mur exact pour **S2** et **S3** à l'étage, et leurs fenêtres.
+- [ ] Autres ouvertures (cuisine, garage) si pertinent.
 - [ ] Distances entre l'unité extérieure et les **3 splits** (longueur des liaisons).
