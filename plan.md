@@ -11,16 +11,18 @@ title: Plan du jardin et implantation de la climatisation
 > (police à chasse fixe). Conservez le bloc entre les balises ``` pour qu'il s'affiche
 > correctement (terminal + GitHub Pages/Jekyll).
 
-## Orientation
+## Orientation (confirmée)
 
 - **Nord réel** ≈ vers le haut, mais l'ensemble est **pivoté d'environ 15°**.
 - **Pignon aveugle** de la maison = **plein SUD** (≈ 15° vers l'ouest).
-- Le jardin « regarde » **plein OUEST** : le **fond du jardin (mur béton blanc) est à
-  l'ouest = à gauche** du schéma.
-- L'**unité extérieure** souffle **vers l'ouest / le fond du jardin** (flèches `<<<`),
-  **parallèlement à la terrasse**, **pas** vers la terrasse.
+- **Terrasse au NORD** (en haut), le long de la haie. ✔
+- **Fond du jardin (mur béton blanc) à l'OUEST** (= à gauche). ✔
+- **Haie de lierre au NORD** (voisin copro). ✔  **Clôture bois (2 m) au SUD** (voisin copro). ✔
+- L'**unité extérieure** est au sol **au pied du mur ouest de la salle à manger** et
+  souffle **vers l'ouest / le fond du jardin** (flèches `<<<`), **parallèlement à la
+  terrasse**, **pas** vers la terrasse.
 
-## Plan
+## Plan — rez-de-chaussée
 
 ```text
                               N (Nord réel ≈ pivoté +15°)
@@ -43,23 +45,28 @@ title: Plan du jardin et implantation de la climatisation
   O                                              |          |            |              |
   U                                              |  SALLE A |   GARAGE   |              |
   E               <<<<<< soufflage clim  [UNITE] |  MANGER  |            |              |
-  S                                              |          |            |              |
-  T                                              +----------+------------+              |
+  S                                              | [S1]     |            |              |
+  T                                              +--mur sud-+------------+              |
   |                                                         |                           |
   |                                                         |                           |
   +-- cloture bois (2 m, limite SUD - voisin copro)---------+---------------------------+
 
   LEGENDE
-  [UNITE] .... unite exterieure de climatisation (au sol, sous la fenetre / volet)
-  ====       mur / fenetre de la salle a manger (section de 2,20 m, recoin en L)
+  [UNITE] .... unite exterieure de climatisation (au sol, pied du mur ouest de la SaM)
+  [S1] ....... split interieur n.1 : SALLE A MANGER, le long du mur SUD (RDC)
   <<<<<      sens de soufflage du ventilateur (ouest = vers le fond du jardin)
-  MUR gauche  mur beton blanc = limite OUEST (fond du jardin, limite de copro, sur autre lotissement)
-  haie limite NORD (jardin d'un voisin de la meme copropriete)
+  MUR gauche  mur beton blanc = limite OUEST (fond du jardin, limite de copro / autre lotissement)
+  haie       limite NORD (jardin d'un voisin de la meme copropriete)
   cloture    cloture bois 2 m = limite SUD (jardin d'un voisin de la meme copropriete)
-  ::::::     terrasse (~15 m2)
+
+  ETAGE (R+1) - unites interieures (au-dessus du RDC, non representees ci-dessus)
+  [S2] ....... split interieur n.2 : CHAMBRE au-dessus de la SALLE A MANGER
+  [S3] ....... split interieur n.3 : CHAMBRE au-dessus du SEJOUR
+  -> Les 3 splits sont regroupes du cote ouest/sud, proches de l'unite exterieure
+     (liaisons frigorifiques courtes).
 
   COTES DU RECOIN EN L (Option A retenue)
-  - Recoin : 130 x 220 cm (a l'angle salle a manger / salon / terrasse)
+  - Recoin : 130 x 220 cm (au pied du mur ouest de la salle a manger)
   - Fenetre : 130 cm le long du grand cote (220 cm)
   - ~90 cm de mur plein avant l'angle cote pignon SUD
   - ~1 m de mur plein (allege) sous la fenetre -> pose au sol possible
@@ -70,11 +77,19 @@ title: Plan du jardin et implantation de la climatisation
   a 30-50 cm mini de l'unite.
 ```
 
+## Récapitulatif des unités intérieures
+
+| Split | Pièce | Niveau | Position |
+|---|---|---|---|
+| S1 | Salle à manger (espace ouvert RDC ~35 m²) | RDC | mur **sud** |
+| S2 | Chambre au-dessus de la salle à manger | R+1 | à préciser |
+| S3 | Chambre au-dessus du séjour | R+1 | à préciser |
+
 ## Notes / à corriger par l'occupant
 
-- [ ] Vérifier l'orientation exacte (la terrasse est-elle bien au **nord**, le fond du
-      jardin bien à l'**ouest** ?).
+- [x] Orientation confirmée : terrasse au **nord**, fond du jardin à l'**ouest**,
+      haie au **nord**, clôture bois au **sud**.
 - [ ] Préciser la forme exacte du **L** (où s'arrêtent terrasse et pelouse).
-- [ ] Position de la **clôture bois** (sud ?) vs **haie de lierre** (nord ?).
 - [ ] Emplacement (une fois connu) de la **trappe d'évacuation des eaux**.
-- [ ] Distances entre l'unité et les **3 pièces** à climatiser (longueur des liaisons).
+- [ ] Mur exact pour **S2** et **S3** à l'étage.
+- [ ] Distances entre l'unité extérieure et les **3 splits** (longueur des liaisons).

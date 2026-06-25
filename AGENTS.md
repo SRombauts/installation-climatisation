@@ -72,6 +72,20 @@ déshumidifier indirectement la **chambre parentale / bureau de télétravail** 
   pour **éviter toute ligne de vue et limiter le bruit** vis-à-vis des voisins de la
   copropriété et des copropriétés voisines.
 
+### Unités intérieures retenues (3 splits)
+
+| Split | Pièce | Niveau | Position | Surface desservie |
+|---|---|---|---|---|
+| **S1** | Salle à manger (espace ouvert) | RDC | mur **sud** | ~35 m² (séjour/cuisine/SàM ouverts) |
+| **S2** | Chambre **au-dessus de la salle à manger** | R+1 | à préciser | ~10–12 m² (+ déshum. indirecte) |
+| **S3** | Chambre **au-dessus du séjour** | R+1 | à préciser | ~10–12 m² (+ déshum. indirecte) |
+
+- **Unité extérieure** : au sol, **au pied du mur ouest de la salle à manger** (Option A,
+  §4/§5), soufflant vers le fond du jardin.
+- Les **3 splits sont regroupés côté ouest/sud**, proches de l'unité extérieure →
+  **liaisons frigorifiques courtes**, cohérent avec un **tri-split** (1 groupe ext. + 3
+  unités int.). Voir le plan : [`plan.md`](plan.md).
+
 > Estimation très grossière de puissance (à confirmer par étude/bilan thermique) :
 > ~35 m² au RDC → ordre de grandeur 3,5 kW ; chambres ~10–12 m² → ~1–1,5 kW chacune.
 > Le dimensionnement définitif doit tenir compte de l'isolation, des apports solaires,
@@ -253,3 +267,15 @@ sans bloquer la circulation d'air.
 ## 10. Questions ouvertes (à compléter ensemble)
 
 Voir la liste de questions ci-dessous, discutée avec l'occupant.
+
+---
+
+## 11. Workflow (méthode de travail)
+
+- Le projet avance par **étapes / itérations** (recueil d'infos, plan, choix techniques,
+  démarches copro, devis, etc.).
+- **À la fin de chaque étape/itération, les modifications peuvent être committées**
+  (git), avec un message clair décrivant ce qui a été fait. Inutile de demander à chaque
+  petite modification : on commite une fois l'étape cohérente et terminée.
+- Documents versionnés : `AGENTS.md` (dossier de projet) et `plan.md` (plan ASCII éditable).
+- Objectif de publication : voir §1 (GitHub Pages / Jekyll).
