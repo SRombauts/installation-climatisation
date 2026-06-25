@@ -89,13 +89,52 @@ title: Plan du jardin et implantation de la climatisation
   a 30-50 cm mini de l'unite.
 ```
 
+## Plan — premier étage (R+1)
+
+> **Mêmes dimensions extérieures que le RDC** (murs extérieurs uniquement, sans jardin
+> ni terrasse). Agencement intérieur **proposé** (« tentative ») — à corriger librement.
+> Orientation identique au RDC.
+
+```text
+                              N (orientation identique au RDC ; +15°)
+                              ^
+                  O <---------+---------> E
+                              v
+                              S
+
+  +--------------+---------+------+----------+
+  |              |         |      |          |
+  | CHAMBRE Nord |   ESC.  |      |  S.D.B   |       
+  | (au-dessus   |         |      |          |
+  |    sejour)   +--+      +------+----+     |
+  |    [S3]                |      | Dressing |
+  |                        |      |          |
+  +-----------------+      +------+----+    -+
+  |                                          |
+  |  CHAMBRE Sud                             |
+  | (au-dessus de   +---   +    CHAMBRE      |    
+  | salle a manger) |      |   PARENTALE     |
+  |    [S2]         |Douche|                 |
+  |                 |      |                 |
+  +-----------------+------+-----------------+
+
+  LEGENDE (R+1)
+  OUEST (gauche) = 2 chambres ; MILIEU = couloir ; EST (droite) = suite parentale.
+  [S3] ... split chambre NORD (au-dessus du sejour)        ~10-12 m2
+  [S2] ... split chambre SUD  (au-dessus de la salle a manger) ~10-12 m2
+  ESC. ... escalier (dans le couloir central)
+  -> SUITE PARENTALE (est) : pas de split dedie ; rafraichie INDIRECTEMENT
+     (portes ouvertes + couloir). Sert aussi de bureau de teletravail (~15 m2).
+  -> Les liaisons de S2/S3 rejoignent l'unite exterieure cote ouest/sud (courtes).
+```
+
 ## Récapitulatif des unités intérieures
 
 | Split | Pièce | Niveau | Position |
 |---|---|---|---|
 | S1 | Salle à manger (espace ouvert RDC ~35 m²) | RDC | mur **sud** |
-| S2 | Chambre au-dessus de la salle à manger | R+1 | à préciser |
-| S3 | Chambre au-dessus du séjour | R+1 | à préciser |
+| S2 | Chambre **sud-ouest** (au-dessus de la salle à manger) | R+1 | mur à préciser |
+| S3 | Chambre **nord-ouest** (au-dessus du séjour) | R+1 | mur à préciser |
 
 ## Ouvertures (fenêtres / portes-fenêtres)
 
