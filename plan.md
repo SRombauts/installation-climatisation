@@ -31,25 +31,27 @@ title: Plan du jardin et implantation de la climatisation
                               v
                               S
 
-  +-- haie (limite NORD - voisin copro) -+-------------------------------+--------------+
-  |                                      |                               |              |
-  M                                      |                               |              |
-  U                                      |                               |              |
-  R                                      |                      CUISINE  |              |
-  |                      TERRASSE ~15 m2 |   SEJOUR                      |              |
-  F                                      |                               |              |
-  O                                      |                               |              |
-  N                                      |                               |              |
-  D                                      |                               |              |
-  |       JARDIN - pelouse (~60 m2)      +-------+          +------------+              |
-  O                                              |          |            |              |
-  U                                              |  SALLE A |   GARAGE   |              |
-  E               <<<<<< soufflage clim  [UNITE] |  MANGER  |            |              |
-  S                                              | [S1]     |            |              |
-  T                                              +--mur sud-+------------+              |
-  |                                                         |                           |
-  |                                                         |                           |
-  +-- cloture bois (2 m, limite SUD - voisin copro)---------+---------------------------+
+  +-- haie (limite NORD - voisin copro) --+---------------------------------+
+  |                     .                 |                                 |
+  |                     .                 |                                 |
+  M                     .                 |                                 |
+  U                     .                 |                       CUISINE   |
+  R                     .    TERRASSE     |  SEJOUR                         |
+  |                     .     ~16 m2      |                                 |
+  F                     .                 |                                 |
+  O                     .                 |                                 |
+  N                     .                 |                 +---------------+              
+  D                     ..................+-----+           |               |
+  |                                             |  SALLE A  |               |
+  O                                             |  MANGER   |    GARAGE     |
+  U                <<<<< soufflage clim [UNITE] |  [S1]     |               |
+  E                                             |           |               |
+  S                                             +--mur sud--+---------------+
+  T        JARDIN                                           |
+  |     pelouse (~60 m2)                                    |
+  |                                                         |
+  |                                                         |
+  +-- cloture bois (2 m, limite SUD - voisin copro)---------+
 
   LEGENDE
   [UNITE] .... unite exterieure de climatisation (au sol, pied du mur ouest de la SaM)
@@ -58,6 +60,7 @@ title: Plan du jardin et implantation de la climatisation
   MUR gauche  mur beton blanc = limite OUEST (fond du jardin, limite de copro / autre lotissement)
   haie       limite NORD (jardin d'un voisin de la meme copropriete)
   cloture    cloture bois 2 m = limite SUD (jardin d'un voisin de la meme copropriete)
+  .......    délimitation terrasse
 
   ETAGE (R+1) - unites interieures (au-dessus du RDC, non representees ci-dessus)
   [S2] ....... split interieur n.2 : CHAMBRE au-dessus de la SALLE A MANGER
