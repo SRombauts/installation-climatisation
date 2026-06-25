@@ -92,8 +92,8 @@ title: Plan du jardin et implantation de la climatisation
 ## Plan — premier étage (R+1)
 
 > **Mêmes dimensions extérieures que le RDC** (murs extérieurs uniquement, sans jardin
-> ni terrasse). Agencement intérieur **proposé** (« tentative ») — à corriger librement.
-> Orientation identique au RDC.
+> ni terrasse). Agencement intérieur **dessiné par l'occupant** — proportions
+> **approximatives, non à l'échelle**. Orientation identique au RDC.
 
 ```text
                               N (orientation identique au RDC ; +15°)
@@ -118,13 +118,17 @@ title: Plan du jardin et implantation de la climatisation
   |                 |      |                 |
   +-----------------+------+-----------------+
 
-  LEGENDE (R+1)
-  OUEST (gauche) = 2 chambres ; MILIEU = couloir ; EST (droite) = suite parentale.
-  [S3] ... split chambre NORD (au-dessus du sejour)        ~10-12 m2
-  [S2] ... split chambre SUD  (au-dessus de la salle a manger) ~10-12 m2
-  ESC. ... escalier (dans le couloir central)
-  -> SUITE PARENTALE (est) : pas de split dedie ; rafraichie INDIRECTEMENT
-     (portes ouvertes + couloir). Sert aussi de bureau de teletravail (~15 m2).
+  LEGENDE (R+1) - proportions approximatives, non a l'echelle
+  OUEST (gauche) = 2 chambres climatisees :
+    [S3] ... CHAMBRE Nord (au-dessus du sejour)             ~10-12 m2
+    [S2] ... CHAMBRE Sud  (au-dessus de la salle a manger)  ~10-12 m2
+  ESC. ... escalier (acces a l'etage)
+  EST (droite) = SUITE PARENTALE :
+    - CHAMBRE PARENTALE (sert aussi de bureau de teletravail, ~15 m2)
+    - S.D.B (salle de bain) + Douche
+    - Dressing
+  -> SUITE PARENTALE : pas de split dedie ; rafraichie INDIRECTEMENT
+     (portes ouvertes + circulation depuis les chambres climatisees).
   -> Les liaisons de S2/S3 rejoignent l'unite exterieure cote ouest/sud (courtes).
 ```
 
