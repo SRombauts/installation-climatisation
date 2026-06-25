@@ -104,17 +104,17 @@ title: Plan du jardin et implantation de la climatisation
 
   +--------------+---------+------+----------+
   |              |         |      |          |
-  | CHAMBRE Nord |   ESC.  |      |  S.D.B   |       
-  | (au-dessus   |         |      |          |
-  |    sejour)   +--+      +------+----+     |
+  | CHAMBRE Nord |   ESC.  |      |  S.D.B   F       
+  F (au-dessus   |         |      |          F
+  F    sejour)   +--+      +------+----+     |
   |    [S3]                |      | Dressing |
   |                        |      |          |
   +-----------------+      +------+----+    -+
   |                                          |
   |  CHAMBRE Sud                             |
-  | (au-dessus de   +---   +    CHAMBRE      |    
-  | salle a manger) |      |   PARENTALE     |
-  |    [S2]         |Douche|                 |
+  F (au-dessus de   +---   +    CHAMBRE      F    
+  F salle a manger) |      |   PARENTALE     F
+  |    [S2]         |Douche|   [S4]          |
   |                 |      |                 |
   +-----------------+------+-----------------+
 
@@ -124,12 +124,16 @@ title: Plan du jardin et implantation de la climatisation
     [S2] ... CHAMBRE Sud  (au-dessus de la salle a manger)  ~10-12 m2
   ESC. ... escalier (acces a l'etage)
   EST (droite) = SUITE PARENTALE :
-    - CHAMBRE PARENTALE (sert aussi de bureau de teletravail, ~15 m2)
+    [S4] ... CHAMBRE PARENTALE / bureau de teletravail (~15 m2) - split DEDIE
     - S.D.B (salle de bain) + Douche
     - Dressing
-  -> SUITE PARENTALE : pas de split dedie ; rafraichie INDIRECTEMENT
-     (portes ouvertes + circulation depuis les chambres climatisees).
-  -> Les liaisons de S2/S3 rejoignent l'unite exterieure cote ouest/sud (courtes).
+  F ...... fenetre (4 identiques, 2 par facade) :
+           OUEST -> chambre Nord + chambre Sud ; EST -> S.D.B + chambre parentale
+  -> Le bureau parental a son PROPRE split (S4) : le rafraichissement passif par
+     porte ouverte ne deshumidifie pas assez pour un poste de teletravail.
+  -> Liaison de S4 (cote est/rue) -> groupe exterieur (cote jardin) via les combles
+     (unite interieure et groupe ext. PAS obliges d'etre du meme cote de la maison).
+  -> Liaisons de S2/S3 : cote ouest/sud, courtes.
 ```
 
 ## Récapitulatif des unités intérieures
@@ -139,6 +143,7 @@ title: Plan du jardin et implantation de la climatisation
 | S1 | Salle à manger (espace ouvert RDC ~35 m²) | RDC | mur **sud** |
 | S2 | Chambre **sud-ouest** (au-dessus de la salle à manger) | R+1 | mur à préciser |
 | S3 | Chambre **nord-ouest** (au-dessus du séjour) | R+1 | mur à préciser |
+| S4 | **Chambre parentale / bureau** (côté est, vers la rue) | R+1 | mur à préciser — **liaison via combles** |
 
 ## Ouvertures (fenêtres / portes-fenêtres)
 
@@ -146,6 +151,8 @@ title: Plan du jardin et implantation de la climatisation
 |---|---|---|---|
 | H | Séjour | Porte-fenêtre **3 vantaux** | mur **ouest**, donne sur la terrasse |
 | F | Salle à manger | Fenêtre **2 battants** (~130 cm) | mur **ouest**, au-dessus de l'unité ext. |
+| o (×2) | Chambres Nord & Sud (R+1) | Fenêtres identiques | façade **ouest** |
+| o (×2) | S.D.B & chambre parentale (R+1) | Fenêtres identiques | façade **est** |
 
 ## Notes / à corriger par l'occupant
 

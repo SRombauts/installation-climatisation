@@ -54,42 +54,52 @@ de la climatisation. À reconsidérer seulement si c'est un espace de couchage/t
 
 ## 3. Périmètre de rafraîchissement souhaité
 
-Objectif : **3 pièces côté jardin**.
+Pièces à climatiser **directement** (un split par pièce) :
 
-1. **RDC** — espace ouvert ~35 m².
-2. **R+1** — chambre ~10 m².
-3. **R+1** — chambre ~12 m².
+1. **RDC** — espace de vie ouvert (séjour / cuisine / salle à manger) ~35 m².
+2. **R+1** — chambre nord-ouest (au-dessus du séjour) ~10–12 m².
+3. **R+1** — chambre sud-ouest (au-dessus de la salle à manger) ~10–12 m².
+4. **R+1** — **chambre parentale / bureau de télétravail** ~15 m², côté **est** (vers la rue).
 
-Les deux petites chambres de l'étage auront **portes ouvertes** pour rafraîchir et
-déshumidifier indirectement la **chambre parentale / bureau de télétravail** (~15 m²).
+> ⚠️ **Décision clé (issue de l'étude) : le bureau parental doit avoir son PROPRE split.**
+> Le rafraîchir **passivement** (portes ouvertes depuis les chambres) est le point faible :
+> l'air froid circule mal via un couloir et **la déshumidification n'y arrive quasiment
+> pas** → le bureau resterait 2–4 °C plus chaud/moite. Comme c'est le **poste de
+> télétravail occupé toute la journée**, il faut une unité dédiée.
+> (cf. [`climatisation-nanterre.md`](climatisation-nanterre.md) §3)
 
-### Hypothèses d'architecture technique (à valider par un pro)
-- Soit **un multi-split (tri-split)** : 1 groupe extérieur + 3 unités intérieures.
-- Soit **2 systèmes** (ex. 1 mono-split au RDC + 1 multi-split à l'étage, ou autre découpage).
-- **Décision sur l'architecture** : à trancher avec un pro. **Le vrai point structurant
-  est l'implantation de la/des unité(s) extérieure(s)** (voir §4), qui sera **étudiée
-  en concertation avec les voisins**. Contrainte forte retenue : **unité(s) au sol**,
-  pour **éviter toute ligne de vue et limiter le bruit** vis-à-vis des voisins de la
-  copropriété et des copropriétés voisines.
+### Décision d'architecture : nombre d'unités intérieures (à arbitrer)
 
-### Unités intérieures retenues (3 splits)
+Le **groupe extérieur reste unique et côté jardin** dans tous les cas (§4). À trancher,
+car **impact direct sur le budget** :
 
-| Split | Pièce | Niveau | Position | Surface desservie |
+- **Quadri-split (4 unités)** : S1 (séjour) + S2 + S3 (les 2 chambres) + S4 (bureau).
+  Confort maximal, mais coût **probablement au-dessus** de l'enveloppe 5–8 k€.
+- **Tri-split (3 unités) — recommandé par l'étude** : S1 (séjour) + S4 (bureau) +
+  **une seule** chambre. La plus petite chambre (~10 m²) reste en rafraîchissement
+  **passif** (porte ouverte la nuit) — acceptable pour une petite pièce adjacente peu
+  occupée en journée. Coût contenu (~5–8 k€ posé).
+
+> **Insight important** : l'unité intérieure et le groupe extérieur **ne sont pas obligés
+> d'être du même côté** de la maison ; seul le **groupe** est contraint (côté jardin). Le
+> bureau côté rue peut donc être relié au groupe côté jardin **via les combles** (§6bis).
+
+### Unités intérieures (selon la config retenue)
+
+| Split | Pièce | Niveau | Puissance indicative | Position |
 |---|---|---|---|---|
-| **S1** | Salle à manger (espace ouvert) | RDC | mur **sud** | ~35 m² (séjour/cuisine/SàM ouverts) |
-| **S2** | Chambre **au-dessus de la salle à manger** | R+1 | à préciser | ~10–12 m² (+ déshum. indirecte) |
-| **S3** | Chambre **au-dessus du séjour** | R+1 | à préciser | ~10–12 m² (+ déshum. indirecte) |
+| **S1** | Séjour / cuisine / SàM ouverts (~35 m²) | RDC | 3,5 kW (4,2–5 kW si baies très ensoleillées) | mur **sud** |
+| **S2** | Chambre sud-ouest (au-dessus SàM) | R+1 | ~2,0 kW | mur à préciser |
+| **S3** | Chambre nord-ouest (au-dessus séjour) | R+1 | ~2,0–2,5 kW | mur à préciser |
+| **S4** | **Chambre parentale / bureau** (~15 m², côté est/rue) | R+1 | 2,0–2,5 kW | liaison **via combles** |
 
+- **Règle de dimensionnement (France)** : ~2,5 kW pour 10–20 m² ; ~3,5 kW pour 20–35 m² ;
+  ~5–7 kW pour un grand séjour 50–70 m². **Ne pas surdimensionner** (cycles courts = plus
+  de bruit + mauvaise déshumidification).
+- **Total intérieur nominal ≈ 7,5–9 kW → groupe extérieur ~6,8 kW** (diversité : tout ne
+  tourne pas à fond en même temps).
 - **Unité extérieure** : au sol, **au pied du mur ouest de la salle à manger** (Option A,
-  §4/§5), soufflant vers le fond du jardin.
-- Les **3 splits sont regroupés côté ouest/sud**, proches de l'unité extérieure →
-  **liaisons frigorifiques courtes**, cohérent avec un **tri-split** (1 groupe ext. + 3
-  unités int.). Voir le plan : [`plan.md`](plan.md).
-
-> Estimation très grossière de puissance (à confirmer par étude/bilan thermique) :
-> ~35 m² au RDC → ordre de grandeur 3,5 kW ; chambres ~10–12 m² → ~1–1,5 kW chacune.
-> Le dimensionnement définitif doit tenir compte de l'isolation, des apports solaires,
-> des surfaces vitrées et de leur orientation.
+  §4/§5), soufflant vers le fond du jardin. Voir le plan : [`plan.md`](plan.md).
 
 ---
 
@@ -208,10 +218,15 @@ sans bloquer la circulation d'air.
   À **prendre en compte pour le dimensionnement de S1** et à coupler avec des **protections
   solaires** (volets/stores) pour ne pas surdimensionner la clim. Voir [`plan.md`](plan.md).
 - **Réversibilité** : **système réversible souhaité (PAC air-air, chaud en hiver)**. ✔
-- **Passage des liaisons** frigorifiques entre l'extérieur et chaque pièce (gaines, percements, façade). **[À COMPLÉTER]**
-- **Évacuation des condensats** (intérieur + extérieur). **[À COMPLÉTER]**
-- **Niveau sonore** : exiger les dB(A) de l'unité extérieure (mode nuit / silencieux). 
-- **Entretien** : accessibilité, contrat d'entretien.
+- **Passage des liaisons** frigorifiques : voir **§6bis** (notamment bureau côté rue via combles).
+- **Évacuation des condensats** : voir **§6bis** (gravité / pompe / point de rejet).
+- **Niveau sonore** : exiger les dB(A) de l'unité extérieure (mode nuit / silencieux).
+  Repère : groupe extérieur ~**46–49 dB(A)** ; unités intérieures haut de gamme ~**19 dB(A)**
+  en mode silence. **Écran à lamelles OK, coffrage fermé INTERDIT** (recirculation d'air chaud).
+- **Modèles** (R32, A+++, Inverter, ~19 dB(A) silence) : Mitsubishi MSZ-LN / MSZ-AY,
+  Daikin Perfera (meilleur SAV FR), Atlantic Takao M3 (meilleur rapport perf/prix),
+  Toshiba Haori, Panasonic Etherea Z. Détails/prix : [`climatisation-nanterre.md`](climatisation-nanterre.md) §6.
+- **Entretien** : accessibilité, contrat d'entretien (~80–150 €/an ; durée de vie 10–15 ans).
 
 ### Dimensions de référence d'une unité extérieure (ordres de grandeur)
 
@@ -238,6 +253,26 @@ sans bloquer la circulation d'air.
 - **Ordre des opérations** : (1) connaître le modèle/l'emprise exacte via l'installateur,
   (2) localiser la trappe, (3) **seulement ensuite** préparer le support.
 
+### 6bis. Cheminement des liaisons & évacuation des condensats
+
+**Liaisons frigorifiques (bureau côté rue → groupe côté jardin)** :
+- Un seul goulot fin (~6–8 cm) par unité : 2 tuyaux cuivre (liquide + gaz), câble de
+  commande, et l'évacuation des condensats.
+- Trajet naturel pour le **bureau (étage, côté rue)** : montée dans les **combles →
+  traversée vers le côté jardin → descente en goulotte le long de la façade jardin**
+  jusqu'au groupe au sol. **Aucune tuyauterie côté rue.**
+- Limites multi-split à respecter : ~25 m par branche, ~60–70 m total, ~15 m de dénivelé.
+
+**Condensats (peuvent être routés séparément des liaisons)** :
+- **Règle dure : la gravité** — pente continue ~1–2 % (≈ 1–2 cm/m) de l'unité au point de
+  rejet. Sinon → **pompe de relevage** (à choisir silencieuse, loin du bureau).
+- L'eau peut sortir **au point le plus proche en contrebas** : pas besoin de revenir au
+  groupe côté jardin. Débit non négligeable en canicule : **1–3+ L/jour**.
+- Rejet, par ordre de préférence : (1) **raccordement aux eaux usées** (siphon obligatoire,
+  anti-odeurs) ; (2) sortie mur latéral discret (gravier / puisard / descente EP) ;
+  (3) sortie façade rue **à éviter** (tuyau visible, coulures sur l'enduit, nuisance).
+- Détails : [`climatisation-nanterre.md`](climatisation-nanterre.md) §4–§5.
+
 ---
 
 ## 7. Contraintes administratives / réglementaires
@@ -245,7 +280,10 @@ sans bloquer la circulation d'air.
 - **AG de copropriété** : autorisation + libellé exact voté. **[À COMPLÉTER]**
 - **Aspect extérieur** : la maison est-elle en zone soumise à des règles d'urbanisme
   particulières (ex. proximité d'un monument, PLU de Nanterre) ? **[À COMPLÉTER]**
-- **Déclaration préalable de travaux** en mairie si modification de l'aspect extérieur ? **[À COMPLÉTER]**
+- **Déclaration préalable de travaux** en mairie si modification de l'aspect extérieur ?
+  Un groupe **visible depuis l'espace public** peut l'exiger ; ici il est **caché côté
+  jardin**, donc *a priori* moins exposé — **à vérifier** auprès de la mairie de Nanterre,
+  en plus de l'autorisation de copropriété. **[À VÉRIFIER]**
 
 ---
 
@@ -254,13 +292,23 @@ sans bloquer la circulation d'air.
 - **Budget cible** : **5 000 – 8 000 €** (matériel + pose). ✔
 - **Échéance souhaitée** : **pas pressé** — projet à instruire posément (AG, devis,
   concertation voisins, comparaisons). Installation possible hors saison. ✔
-- **Aides éventuelles** (si pompe à chaleur réversible / rénovation énergétique) : **[À COMPLÉTER]**
+- **Cadre financier / aides** :
+  - Pose par **installateur RGE QualiPAC obligatoire** (manipulation des fluides) — seul à
+    débloquer la **TVA 5,5 %** et le **bonus CEE (fiche BAR-TH-129)**.
+  - ⚠️ **Pas de MaPrimeRénov'** pour les PAC air-air (clim réversible).
+  - **Demander au moins 3 devis** (main-d'œuvre IDF +15–25 % vs province).
+  - Entretien annuel ~**80–150 €** ; durée de vie **10–15 ans**.
+- **Repère budget posé (IDF)** : **tri-split ~5–8 k€** ; solution à 2 groupes ~5,5–9 k€ ;
+  liaison longue vers le bureau **+ quelques centaines €** (+ pompe condensats éventuelle).
+- Détails et modèles : [`climatisation-nanterre.md`](climatisation-nanterre.md).
 
 ---
 
 ## 9. Documents et plans
 
-- **Plan ASCII éditable** : [`plan.md`](plan.md) (jardin + implantation de l'unité). ✔
+- **Plan ASCII éditable** : [`plan.md`](plan.md) (jardin + implantation de l'unité + R+1). ✔
+- **Étude / aide à la décision** : [`climatisation-nanterre.md`](climatisation-nanterre.md)
+  (architecture multi-split, dimensionnement, liaisons, condensats, modèles, budget, aides). ✔
 - **Plans officiels de la maison** : à fournir (image). Les plans sont quasiment
   identiques pour toutes les maisons de la copropriété, **avec des symétries miroir**
   d'une maison à l'autre. **[À AJOUTER]**
